@@ -1,0 +1,7 @@
+# Dependencias para regenerar el extracto que consume el dashboard.
+# Instalar con: py -m pip install -r requirements.txt
+pandas>=2.2,<3
+
+# Opcional: solo si vas a regenerar el wireframe de referencia
+# (src/render_wireframe.py). No es necesario para el tablero.
+# matplotlib>=3.8,<4
